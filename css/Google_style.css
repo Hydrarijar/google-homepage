@@ -1,82 +1,105 @@
-div {margin: 0; padding: 0;}
-div div {background: #A4CA39; position: relative;}
-
-.android {
-	height: 404px; width: 334px;
-	margin: 100px auto;
+a {
+	text-decoration: none;
+	color: #aaa;
 }
 
-.head {
-	width: 220px; height: 100px;
-	top: 32px;
-
-	border-radius: 110px 110px 0 0;
-	transition: all 0.1s ease-in;
+a:hover {
+	text-decoration: underline;
 }
 
-.l_eye, .r_eye {
-	background: #fff;
-	width: 20px; height: 20px;
-	position: absolute; top: 42px;
 
-	border-radius: 10px;
+.logo {
+    width: 25%;
+    margin: auto;
+    display: block;
 }
 
-.l_eye {left: 50px;}
-.r_eye {right: 50px;}
-
-.l_ant, .r_ant {
-	width: 6px; height: 50px;
-	position: absolute; top: -34px;
-
-	border-radius: 3px;
+.searchbox {
+    width: 45%; height: 25px;
+    margin: 15px auto;
+    display: block;  
 }
 
-.l_ant {
-	left: 50px;
-	transform: rotate(-30deg);
+.center {
+    margin: 190px auto;
+    display: block;
 }
 
-.r_ant {
-	right: 50px;
-	transform: rotate(30deg);
+.buttonwrap {
+	width: 220px; height: 20px;
+	line-height: 27px;
+	text-align: center;
+	margin: auto;
 }
 
-.body {
-	width: 220px; height: 184px;
-	top: 40px;
-	border-radius: 0 0 25px 25px;
+.searchbutton {
+	float: left;
+	width: 100px;
 }
 
-.l_arm, .r_arm, .l_leg, .r_leg {
-	width: 50px;
+.feelinglucky {
+	float: right;
+	width: 100px;
+}
+
+.navbardiv {
+	width: 100%; height: 25px;
+	line-height: 10px;
+	text-align: center;
+}
+
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	top: -50px;
+	float: right;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 7px;
+	font-family: arial;
+	font-size: 13px;
+	color: #aaa;
+	position: relative;
+}
+
+.navlinks {
+	display: inline-block;
+}
+
+.navapps {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.footbar {
+	background: #F2F2F2;	
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 100%;
+	bottom: 0;
 	position: absolute;
-	transition: all 0.1s ease-in;
 }
 
-.l_arm, .r_arm {
-	height: 150px;
-	border-radius: 25px; 
+.leftfoot {
+	float: left;
+	margin: 0;
 }
 
-.l_leg, .r_leg {
-	height: 80px; top: 182px;
-	border-radius: 0 0 25px 25px;
+.rightfoot {
+	float: right;
+	margin: 0;
+	margin-right: 20px;
 }
 
-.l_arm {left: -58px;}
-.r_arm {right: -58px;}
-.l_leg {left: 45px;}
-.r_leg {right: 45px;}
-
-.head:hover {
-	transform: rotate(-5deg) translate(-4px, -8px);
+.footbar li {
+	display: inline-block;
+	padding: 7px;
+	font-family: arial;
+	font-size: 13px;
+	color: #aaa;
 }
 
-.l_arm:hover {
-	transform: rotate(15deg) translate(-14px, 0px);
-}
-
-.r_arm:hover {
-	transform: rotate(-30deg) translate(30px, 0px);
-}
